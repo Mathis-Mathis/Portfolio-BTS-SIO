@@ -91,3 +91,10 @@ header {
     color: #fff;
     font-weight: 300;
 }
+
+footer {
+    position: relative;
+    background: red;
+    padding: 100px;
+    height: 100%;
+}
