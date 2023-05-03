@@ -1,5 +1,4 @@
 //annimation page accueil
-
 const footer = document.querySelector('footer');
 const footerHeight = footer.getBoundingClientRect().height;
 
@@ -18,7 +17,6 @@ window.addEventListener('scroll', () => {
 
 
 //défilement vers les pages via la navbar
-
 // Sélectionnez l'élément "a" correspondant au lien "about"
 const link = document.querySelector('a[href="#about"]');
 
@@ -40,7 +38,6 @@ link.addEventListener('click', (event) => {
 
 
 //boutton pour remonter la page
-
 const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
