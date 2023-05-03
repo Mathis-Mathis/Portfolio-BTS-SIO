@@ -70,6 +70,7 @@ header {
     left: 0;
     width: 100%;
     pointer-events: none;
+    height: 100vh;
 }
 
 
@@ -97,4 +98,23 @@ footer {
     background: red;
     padding: 100px;
     height: 100%;
+}
+
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background: #f9f9f9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+.icone {
+    width: 50px;
 }
