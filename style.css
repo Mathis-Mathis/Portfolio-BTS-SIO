@@ -88,7 +88,7 @@ header {
 }
 
 .sec p {
-    font-size: 1em;
+    font-size: 1.1em;
     color: #fff;
     font-weight: 300;
 }
@@ -116,4 +116,18 @@ footer {
 }
 .icone {
     width: 50px;
+}
+
+#ort {
+    width: 30vh;
+    height: 25vh;
+    border-radius: 15px;
+}
+
+#igbmc {
+    width: 40vh;
+    height: 20vh;
+    transform: translate(240%);
+    background: white;
+    border-radius: 15px;
 }
